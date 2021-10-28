@@ -42,12 +42,6 @@
     background-color:white;
 
 }
-.nav .category-menu{
-    margin-top: 15px;
-    width: 1200px;
-    height: 30px;
-    background-color: red;
-}
 .nav .search-shopcart-order .search-input{
     width: 440px;
     height: 35px;
@@ -95,12 +89,91 @@
 }
 
 /* 分类导航和banner */
-.menu{
-    height: 500px;
-    background-color:gray;
+
+.nav .category-menu{
+    margin-top: 15px;
+    height: 30px;
 }
-
-
+.nav .category-menu .left-logo{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    position: relative;                 /*相对定位 */
+}
+.nav .category-menu .left-logo img{
+    position: absolute;                /*相对于父元素的定位 */
+    bottom: 0;
+    left: 0;
+}
+.nav .category-menu ul{
+    width: 1000px;
+    height: 30px;
+}
+.nav .category-menu ul li{
+    float:left;
+    height: 30px;
+    line-height: 30px;
+    width: 84px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700px;      /* 文本粗细 */
+}
+.menu{
+    height: 430px;
+}
+.menu .sideMenu{
+    height: 430px;
+    width: 200px;
+}
+.menu .sideMenu ul{
+    height: 430px;
+    width: 1000px;
+    position: relative;
+    background-color: white;
+}
+.menu .sideMenu ul li{
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    text-indent: 20px;
+    background-color: #f3f3f3;
+}
+.menu .sideMenu ul li a{
+    color: gray;
+}
+.menu .sideMenu ul li:hover a{
+    color: #ff6700;
+}
+.menu .sideMenu ul li .title{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+}
+.menu .sideMenu ul li:hover .title{
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+}
+.menu .sideMenu ul li:hover .subMenu{
+    display: block;
+    background-color: #f3f3f3;
+}
+.menu .sideMenu ul li .subMenu{
+    position: absolute;
+    left: 198px;
+    top: 0;
+    border: 2px solid #ff6700;
+    width: 500px;
+    height: 426px;
+    display: none;
+    z-index:99;
+}
+.menu .banner{
+    height: 430px;
+    width: 1000px;
+    background-color:white;
+}
 /* 今日推荐 */
 .recommend{
     height: 500px;
