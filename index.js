@@ -25,5 +25,6 @@ $(function () {
         controlsH:2,//控制按钮高度
         controlsColor:"#d7d7d7",//普通控制按钮的颜色
         controlsCurrentColor:"green",//当前控制按钮的颜色
+        
     });
 })
