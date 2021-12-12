@@ -26,7 +26,11 @@
     margin-left: 100px;
 }
 .shopcart .totalprice span{
-    margin-left: 150px;
+    margin-left: 83px;
+    margin-right: 50px;
+}
+.shopcart .totalprice i {
+    color: red;
 }
 .shopcart .totalprice span:first-of-type{
     margin-right: 100px;
